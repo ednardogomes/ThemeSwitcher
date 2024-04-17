@@ -7,9 +7,7 @@ const textH1 = localStorage.h1;
 
 window.onload = () => {
   main.classList.add(mainBall);
-  console.log(mainBall);
   ball.classList.add(currentBall);
-  console.log(currentBall);
   h1.textContent = textH1;
 };
 
